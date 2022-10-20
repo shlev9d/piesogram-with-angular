@@ -9,6 +9,7 @@ import { BreedService } from './services/breed.service';
 export class AppComponent implements OnInit {
   title: string = 'psintagram';
   breed: string = '';
+  logo: string = '../assets/dog.png'
 
   constructor(private breedService: BreedService) {}
 

@@ -1,0 +1,6 @@
+<div class="dogs_list">
+  <select class="select" #setValue (change)="setBreed(setValue.value)">
+    <option value="wybierz rasę" disabled selected>wybierz rasę</option>
+    <option *ngFor="let dog of dogs" [value]="dog">{{ dog }}</option>
+  </select>
+</div>

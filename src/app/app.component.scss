@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 10px;
+  max-width: 600px;
+  height: 70vh;
+  margin: 20px auto 0;
+  text-align: center;
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+      font-size: 45px;
+      line-height: 0.7;
+      img {
+        width: 35px;
+      }
+    }
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+  }
+}

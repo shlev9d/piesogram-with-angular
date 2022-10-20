@@ -1,0 +1,28 @@
+@import "../../../styles.scss";
+
+.dog_info {
+  height: 100%;
+
+  img {
+    width: 300px;
+    max-height: 350px;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    object-fit: cover;
+  }
+  a {
+    background: #fff;
+    text-decoration: none;
+    border: none;
+    box-shadow: $shadow;
+    padding: 3px 30px 7px;
+    border-radius: $radius;
+    transition: $transition;
+    color: #000;
+    font-weight: 500;
+
+    &:hover {
+      box-shadow: $shadow-hover;
+    }
+  }
+}

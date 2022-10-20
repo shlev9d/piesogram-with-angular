@@ -1,0 +1,19 @@
+@import "../../../styles.scss";
+
+.dogs_list {
+  .select {
+    width: 180px;
+    padding: 5px;
+    border-radius: $radius;
+    border: none;
+    box-shadow: $shadow;
+    transition: $transition;
+    text-align: center;
+    &:hover{
+      box-shadow: $shadow-hover;
+    }
+    option{
+      border: none;
+    }
+  }
+}

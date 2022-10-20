@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;700;900&display=swap');
+
+body{
+  background: rgb(255, 255, 255);
+   box-sizing: border-box;
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+$shadow:  0 0 10px 5px rgba(195, 191, 191, 0.66);
+$transition: all 0.3s;
+$shadow-hover:  0 0 10px 5px rgba(116, 114, 114, 0.797);
+$radius: 7px;

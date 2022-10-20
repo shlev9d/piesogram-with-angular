@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <footer class="footer">
+    
+    <h1>Psinogr<img src="../assets/dog.png" alt="logo" class="logo">m</h1>
+  </footer>
+  <div class="main">
+    <app-dogs></app-dogs>
+
+    <app-dog-clear *ngIf="breed === ''"></app-dog-clear>
+
+    <app-dog-info
+      [breed]="breed"
+      *ngIf="breed !== ''"
+    ></app-dog-info>
+  </div>
+</div>

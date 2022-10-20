@@ -1,6 +1,6 @@
 # Psintagram
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+demo: https://shlev9d.github.io/psintagram-with-angular/
 
 ## Development server
 
